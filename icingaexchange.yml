@@ -1,0 +1,19 @@
+name: check_redis
+description: "file:///README.md"
+url: "https://github.com/bodsch/check_redis.git"
+tags: Redis
+vendor: Linux
+target: Operating System
+type: Plugin
+license: AGPL3
+releases:
+  -
+    name: 1.0
+    description: "1.0 Release"
+    files:
+      -
+        name: check_redis.py
+        url: "file:///check_redis.py"
+        description: "First release"
+        checksum: 78e4c0be775982070907088051dd49d7
+
