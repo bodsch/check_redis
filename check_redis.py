@@ -145,7 +145,7 @@ class MonitoringPluginRedis(object):
                 if not self.warning:
                     status = "UNKNOWN: Warning level required"
                 if not self.critical:
-                    status = "UNKNONW: Critical level required"
+                    status = "UNKNOWN: Critical level required"
 
                 print(status)
                 sys.exit(EXIT_UNKNONW)
@@ -196,7 +196,7 @@ class MonitoringPluginRedis(object):
             sys.exit(EXIT_OK)
         if exit_string == "WARNING":
             sys.exit(EXIT_WARNING)
-        if exit_string == "UNKNONW":
+        if exit_string == "UNKNOWN":
             sys.exit(EXIT_UNKNONW)
         else:
             sys.exit(EXIT_CRITICAL)
