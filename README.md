@@ -1,5 +1,9 @@
 # monitoring check for redis
 
+## dependencies
+
+ * `redis` Python(3) library, in debian/ubuntu `python3-redis`
+
 ## usage
 
 ```
