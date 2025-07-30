@@ -181,7 +181,7 @@ class MonitoringPluginRedis(object):
             status = f"{exit_string}: Redis {self.key} is {info_value}"
             perfdata = f"{self.key}={info_value};{self.warning};{self.critical};0;{info_value}"
 
-            print(f"{status} || {perfdata}")
+            print(f"{status}\n|{perfdata}")
 
         else:
 
